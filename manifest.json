@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [{
+        "exclude_globs": [],
+        "include_globs": ["*"],
+        "js": ["icbc-club-fix.user.js"],
+        "matches": ["https://www.icbcclub.com.ar/webIcbcClub/*"]
+    }],
+    "name": "ICBC Club Fix",
+    "description": "Elimina los botones de facebook y twitter del catálogo de ICBC Club para mejorar la performance del sitio",
+    "version": "1"
+}
